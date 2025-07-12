@@ -1,0 +1,193 @@
+/* [project]/src/app/styles/Register.module.css [app-client] (css) */
+.Register-module__JxmLNG__registerPage {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  display: flex;
+}
+
+.Register-module__JxmLNG__registerContainer {
+  background: #fff;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3rem;
+  box-shadow: 0 15px 35px #0000001a;
+}
+
+.Register-module__JxmLNG__registerHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.Register-module__JxmLNG__registerHeader h1 {
+  color: #2c3e50;
+  margin-bottom: .5rem;
+  font-size: 2.5rem;
+}
+
+.Register-module__JxmLNG__registerHeader p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.Register-module__JxmLNG__formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.Register-module__JxmLNG__formGroup label {
+  color: #2c3e50;
+  margin-bottom: .5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.Register-module__JxmLNG__formGroup input, .Register-module__JxmLNG__formGroup select {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  width: 100%;
+  padding: .8rem;
+  font-size: 1rem;
+  transition: border-color .3s;
+}
+
+.Register-module__JxmLNG__formGroup input:focus, .Register-module__JxmLNG__formGroup select:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+.Register-module__JxmLNG__formRow {
+  gap: 1rem;
+  display: flex;
+}
+
+.Register-module__JxmLNG__formRow .Register-module__JxmLNG__formGroup {
+  flex: 1;
+}
+
+.Register-module__JxmLNG__checkboxGroup {
+  align-items: flex-start;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.Register-module__JxmLNG__checkboxGroup input[type="checkbox"] {
+  width: auto;
+  margin-top: .2rem;
+}
+
+.Register-module__JxmLNG__checkboxGroup label {
+  color: #666;
+  margin-bottom: 0;
+  font-size: .9rem;
+  font-weight: normal;
+}
+
+.Register-module__JxmLNG__checkboxGroup a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.Register-module__JxmLNG__checkboxGroup a:hover {
+  text-decoration: underline;
+}
+
+.Register-module__JxmLNG__registerBtn {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.Register-module__JxmLNG__registerBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px #667eea66;
+}
+
+.Register-module__JxmLNG__registerBtn:active {
+  transform: translateY(0);
+}
+
+.Register-module__JxmLNG__divider {
+  text-align: center;
+  color: #666;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.Register-module__JxmLNG__divider:before {
+  content: "";
+  background: #e0e0e0;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+.Register-module__JxmLNG__divider span {
+  background: #fff;
+  padding: 0 1rem;
+}
+
+.Register-module__JxmLNG__socialButtons {
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.Register-module__JxmLNG__socialBtn {
+  cursor: pointer;
+  color: #333;
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .8rem;
+  font-size: .9rem;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+}
+
+.Register-module__JxmLNG__socialBtn:hover {
+  background: #f8f9ff;
+  border-color: #667eea;
+}
+
+.Register-module__JxmLNG__loginLink {
+  text-align: center;
+  color: #666;
+}
+
+.Register-module__JxmLNG__loginLink a {
+  color: #667eea;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Register-module__JxmLNG__loginLink a:hover {
+  text-decoration: underline;
+}
+
+.Register-module__JxmLNG__errorMessage {
+  color: #e74c3c;
+  margin-top: .25rem;
+  font-size: .85rem;
+}
+
+
+/*# sourceMappingURL=src_app_styles_Register_module_04c101c1.css.map*/
